@@ -9,8 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent implements OnInit {
   currentYear:number;
   constructor(private _translateService: TranslateService) {
-    this._translateService.addLangs(['en', 'fr']);
-    this._translateService.setDefaultLang('fr');
+    this._translateService.addLangs(['en', 'es']);
+    this._translateService.setDefaultLang('es');
     this.currentYear=new Date().getFullYear();
   }
 

@@ -18,8 +18,9 @@ export class HeaderComponent implements OnInit {
       this.language=localStorage.getItem("lang");
     }
     else{
-      this.language='es';
+      this.language='en';
     }
+    
   }
 
   languageChange($event:any){
